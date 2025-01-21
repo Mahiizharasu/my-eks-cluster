@@ -4,4 +4,6 @@ variable "vpc_id" {
 variable "subnets_id" {
     type=list(string) 
 }
-
+variable "region" {
+  type = string
+}
